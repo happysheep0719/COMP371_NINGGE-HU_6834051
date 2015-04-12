@@ -1,0 +1,103 @@
+﻿Build started 4/12/2015 5:59:07 PM.
+     1>Project "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\Assignment1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"../ThirdParty/glew-1.10.0/include" /I"../ThirdParty/glfw-3.0.4/include" /I../ThirdParty/glm /I"..\ThirdParty\glew-1.12.0\include" /I"..\ThirdParty\glfw-3.1\include" /I..\ThirdParty\tinyObj /I..\ThirdParty\soil /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/" /Fd"E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\BSpline\BSpline.cpp Source\BSpline\BSplineCamera.cpp Source\Camera\ThirdPersonCamera.cpp Source\EventManager.cpp Source\Model_Classes\CubeModel.cpp Source\Model_Classes\Model.cpp Source\Model_Classes\SheepModel.cpp Source\Model_Classes\SheepObjloader.cpp Source\Model_Classes\SheepParticleModel.cpp Source\Model_Classes\SphereModel.cpp Source\Model_Classes\WormModel.cpp Source\Path.cpp Source\Renderer.cpp Source\World.cpp Source\main.cpp
+         World.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 e:\comp 371\group project\group project github\comp371final\thirdparty\glfw-3.0.4\include\glfw\glfw3.h(92) : see previous definition of 'APIENTRY'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\world.cpp(31): warning C4005: 'SND_FILENAME' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\playsoundapi.h(91) : see previous definition of 'SND_FILENAME'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\world.cpp(32): warning C4005: 'SND_LOOP' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\playsoundapi.h(85) : see previous definition of 'SND_LOOP'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\world.cpp(33): warning C4005: 'SND_ASYNC' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\playsoundapi.h(82) : see previous definition of 'SND_ASYNC'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\assetsmanager.hpp(154): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\world.cpp(534): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\world.cpp(574): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\world.cpp(658): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\world.cpp(667): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\world.cpp(668): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\world.cpp(683): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\world.cpp(684): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Renderer.cpp
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\renderer.cpp(120): warning C4018: '<' : signed/unsigned mismatch
+         SheepParticleModel.cpp
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepparticlemodel.cpp(116): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepparticlemodel.cpp(117): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         SheepObjloader.cpp
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepobjloader.cpp(35): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepobjloader.cpp(46): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepobjloader.cpp(54): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepobjloader.cpp(58): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepobjloader.cpp(63): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepobjloader.cpp(68): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+         SheepModel.cpp
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepmodel.cpp(92): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepmodel.cpp(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepmodel.cpp(97): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepmodel.cpp(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\sheepmodel.cpp(109): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         main.cpp
+         Path.cpp
+         WormModel.cpp
+         SphereModel.cpp
+         Model.cpp
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\model_classes\model.cpp(52): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         CubeModel.cpp
+         EventManager.cpp
+         ThirdPersonCamera.cpp
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\camera\thirdpersoncamera.cpp(21): warning C4005: 'SND_FILENAME' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\playsoundapi.h(91) : see previous definition of 'SND_FILENAME'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\camera\thirdpersoncamera.cpp(22): warning C4005: 'SND_LOOP' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\playsoundapi.h(85) : see previous definition of 'SND_LOOP'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\camera\thirdpersoncamera.cpp(23): warning C4005: 'SND_ASYNC' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\playsoundapi.h(82) : see previous definition of 'SND_ASYNC'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\camera\thirdpersoncamera.cpp(72): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\camera\thirdpersoncamera.cpp(74): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\camera\thirdpersoncamera.cpp(132): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\camera\thirdpersoncamera.cpp(223): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\camera\thirdpersoncamera.cpp(226): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\camera\thirdpersoncamera.cpp(111): warning C4101: 'event' : unreferenced local variable
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         BSplineCamera.cpp
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\bspline\bsplinecamera.cpp(43): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         BSpline.cpp
+     1>e:\comp 371\group project\group project github\comp371final\vs2012\source\bspline\bspline.cpp(186): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Bin/Assignment1-Debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\ThirdParty\soil /LIBPATH:"..\ThirdParty\glfw-3.1\lib-vc2013" /LIBPATH:"../ThirdParty/glew-1.12.0/lib/Release/Win32" /LIBPATH:"../ThirdParty/glew-1.10.0/lib/Release/Win32" /LIBPATH:"../ThirdParty/glfw-3.0.4/lib/Win32/lib-msvc110" opengl32.lib glew32s.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Bin/Assignment1-Debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Bin/Assignment1-Debug.lib" /MACHINE:X86 "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/Assignment1.res"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/tiny_obj_loader.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/BSpline.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/BSplineCamera.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/Camera.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/StaticCamera.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/ThirdPersonCamera.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/EventManager.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/main.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/CubeModel.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/Model.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/SheepModel.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/SheepObjloader.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/SheepParticleModel.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/SheepTexture.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/SphereModel.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/WormModel.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/Path.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/Renderer.obj"
+         "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Build/Debug/World.obj"
+         ..\ThirdParty\soil\SOIL.lib
+         Assignment1.vcxproj -> E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\/../Bin/Assignment1-Debug.exe
+     1>Done Building Project "E:\COMP 371\Group Project\Group project Github\COMP371Final\VS2012\Assignment1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.29
